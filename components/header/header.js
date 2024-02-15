@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
 import ScrollspyNav from "./scrollSpy";
-
+import logo from '../header/logo.png';
 import {
   Navbar,
   Nav,
@@ -48,7 +48,7 @@ const header = props => {
         <nav className="navbar navbar-expand-lg fixed-top navbar-custom sticky sticky-dark">
           <Container>
             <NavbarBrand className="logo text-uppercase" href="/">
-              Dorsin
+            Life is OK
             </NavbarBrand>
             <NavbarToggler onClick={toogleModal}>
               <i className="mdi mdi-menu"></i>
@@ -61,7 +61,7 @@ const header = props => {
             >
               <ScrollspyNav
                 scrollTargetIds={targetId}
-                scrollDuration="800"
+                scrollDuration="500"
                 headerBackground="true"
                 activeNavClass="active"
                 className="navbar-collapse"
