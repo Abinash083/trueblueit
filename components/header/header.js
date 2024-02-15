@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
 import ScrollspyNav from "./scrollSpy";
-import logo from '../header/logo.png';
+
 import {
   Navbar,
   Nav,
@@ -90,7 +90,7 @@ const header = props => {
                         type="button"
                         className="btn btn-primary navbar-btn btn-rounded waves-effect waves-light"
                       >
-                        Try it Free
+                        Book Appointment
                         </Button>
                     </li>
                   </Nav>
